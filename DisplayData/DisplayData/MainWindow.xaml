@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:DisplayData"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <WrapPanel RenderTransformOrigin="0.23,0.312">
+        <Label x:Name="DateLable"></Label>
+    </WrapPanel>
 </Window>
