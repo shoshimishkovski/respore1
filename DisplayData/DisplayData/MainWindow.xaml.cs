@@ -23,6 +23,7 @@ namespace DisplayData
         public MainWindow()
         {
             InitializeComponent();
+            int x = 5;
         }
     }
 }
