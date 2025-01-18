@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <WrapPanel RenderTransformOrigin="0.23,0.312">
-        <Label x:Name="DateLable"></Label>
+        <Label x:Name="DateLable" FontSize="14" Content="{Binding CurrentData}"></Label>
     </WrapPanel>
 </Window>

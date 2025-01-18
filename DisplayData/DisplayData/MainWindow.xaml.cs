@@ -23,7 +23,9 @@ namespace DisplayData
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = this;
             int ShoshiMishkovski = 5;
         }
+        public string CurrentData => DateTime.Now.ToString("HH:mm dd/MM/yyyy");
     }
 }
